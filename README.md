@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# BINANCE-PROJECT
-=======
+
 # BINANCE-TRADING-BOT
 
 # BINANCE-PROJECT
@@ -9,8 +7,6 @@
 
 A simple, structured Python-based CLI trading bot that places **MARKET** and **LIMIT** orders on Binance Futures Testnet (USDT-M).
 Built with clean architecture, input validation, logging, and error handling.
-
----
 
 ##  Features
 
@@ -22,8 +18,6 @@ Built with clean architecture, input validation, logging, and error handling.
 *  Logging of requests, responses, and errors
 *  Exception handling with full traceback
 *  Order execution status tracking
-
----
 
 ## Project Structure
 
@@ -70,7 +64,6 @@ Activate:
 venv\Scripts\activate
 ```
 
----
 
 ### 3. Install dependencies
 
@@ -78,7 +71,6 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
 
 ## API Setup (IMPORTANT)
 
@@ -97,7 +89,6 @@ pip install -r requirements.txt
    * API Key
    * API Secret
 
----
 
 ### 4. Create `.env` file
 
@@ -115,8 +106,6 @@ API_SECRET=your_api_secret_here
 * Use the Testnet Faucet to add USDT balance
 * Required to place orders successfully
 
----
-
 ## Usage
 
 ### MARKET Order
@@ -125,7 +114,6 @@ API_SECRET=your_api_secret_here
 python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 ```
 
----
 
 ### LIMIT Order
 
@@ -133,7 +121,6 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 76000
 ```
 
----
 
 ## Sample Output
 
@@ -161,7 +148,6 @@ Avg Price: 63000
  Order process completed
 ```
 
----
 
 ## Logging
 
@@ -199,4 +185,3 @@ Handles:
 * Missing parameters
 
 
->>>>>>> 8d9ead48d7881220e9944afb315cdf6405f666e7
